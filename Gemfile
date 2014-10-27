@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'foundation-rails'
+gem 'rails_12factor', group: :production
 
 group :test, :development do
   gem 'rspec-rails', '~> 3.1.0'
